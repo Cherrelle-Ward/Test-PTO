@@ -1,8 +1,10 @@
 {
-  "name": "pto",
+  "proxy": "http://localhost:3000",
+  "name": "sprint5",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mui/x-date-pickers": "^5.0.8",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,10 +12,15 @@
     "@types/node": "^16.18.3",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
+    "bootstrap": "^5.2.2",
+    "date-fns": "^2.29.3",
+    "moment": "^2.29.4",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-day-picker": "^8.3.6",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
   }
 }
